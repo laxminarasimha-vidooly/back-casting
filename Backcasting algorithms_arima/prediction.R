@@ -44,7 +44,7 @@ for (i in (ch_ids))
   #print(i)
 }
 #Export daily tracking to csv
-write.csv(data2, file="E:/Work/dailytrackingmodel.csv")
+write.csv(data2, file="/dailytrackingmodel.csv")
 
 #Processing daily tracking
 data33<-data
